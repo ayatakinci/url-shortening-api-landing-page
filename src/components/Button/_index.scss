@@ -1,0 +1,15 @@
+.btn {
+  display: block;
+  background-color: $clr-primary-light;
+  padding: 0.875rem 2.875rem;
+  border-radius: 2rem;
+  color: $clr-neutral-100;
+  font-size: 1.125rem;
+  font-weight: $fw-bold;
+  border: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
