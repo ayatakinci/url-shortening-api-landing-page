@@ -2,7 +2,7 @@
   overflow: hidden;
   width: 100vw;
 
-  @media (min-width: 1024px) {
+  @include breakpoint-up(medium) {
     &__text-container {
       margin: 4.75rem 0 0 1rem;
     }
@@ -12,7 +12,7 @@
     padding-top: 1rem;
     display: grid;
 
-    @media (max-width: 1023px) {
+    @include breakpoint-down(small) {
       text-align: center;
       grid-template-columns: repeat(2, 100%);
       grid-template-areas: "image" "text";
@@ -27,7 +27,7 @@
       }
     }
 
-    @media (min-width: 1024px) {
+    @include breakpoint-up(medium) {
       max-width: 70rem;
       margin-left: auto;
       margin-right: auto;
@@ -41,12 +41,12 @@
     line-height: 1.15;
     max-width: 18ch;
 
-    @media (max-width: 1023px) {
+    @include breakpoint-down(small) {
       margin: 0 auto 1rem;
       padding: 0 1.5rem;
     }
 
-    @media (min-width: 1024px) {
+    @include breakpoint-up(medium) {
       font-size: 4.5rem;
     }
   }
@@ -56,20 +56,20 @@
     margin-bottom: 2rem;
     max-width: 40ch;
 
-    @media (max-width: 1023px) {
+    @include breakpoint-down(small) {
       margin-left: auto;
       margin-right: auto;
       padding: 0 1.5rem;
     }
 
-    @media (min-width: 1024px) {
+    @include breakpoint-up(medium) {
       margin-bottom: 2.25rem;
       font-size: 1.25rem;
     }
   }
 
   button {
-    @media (max-width: 1023px) {
+    @include breakpoint-down(small) {
       margin-left: auto;
       margin-right: auto;
     }
@@ -80,7 +80,7 @@
     max-width: 50rem;
     padding-left: 1.5rem;
 
-    @media (min-width: 1024px) {
+    @include breakpoint-up(medium) {
       padding-left: 2.75rem;
     }
   }
