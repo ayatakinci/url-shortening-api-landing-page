@@ -1,12 +1,14 @@
 import React from 'react';
 
-import Hero from './pages/Hero';
+import Hero from './sections/Hero';
+import LinksShortener from './sections/LinksShortener';
 
 function App() {
 	return (
-		<>
+		<main>
 			<Hero />
-		</>
+			<LinksShortener />
+		</main>
 	);
 }
 
