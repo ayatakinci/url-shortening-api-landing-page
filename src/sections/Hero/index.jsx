@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Button from '../../components/Button';
+import Button from '../../UI/Button';
 import image from '../../images/illustration-working.svg';
 
 class Hero extends Component {

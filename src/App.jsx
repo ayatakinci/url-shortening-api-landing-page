@@ -1,13 +1,13 @@
 import React from 'react';
 
 import Hero from './sections/Hero';
-import LinksShortener from './sections/LinksShortener';
+import LinkShortener from './sections/LinkShortener';
 
 function App() {
 	return (
 		<main>
 			<Hero />
-			<LinksShortener />
+			<LinkShortener />
 		</main>
 	);
 }
