@@ -20,7 +20,8 @@
 
   input {
     padding-left: 1rem;
-    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
 
     &::placeholder {
       color: $clr-neutral-400;
@@ -28,7 +29,7 @@
 
     @include breakpoint-up(medium) {
       padding-left: 2rem;
-      padding-left: 2rem;
+      padding-right: 2rem;
     }
 
     &:focus {
