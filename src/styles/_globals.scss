@@ -4,3 +4,9 @@ body {
   font-weight: $fw-regular;
   color: $clr-neutral-400;
 }
+
+.container {
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 class Button extends Component {
 	render() {
-		const { text } = this.props;
+		const { children } = this.props;
     
 		return (
-			<button className="btn">
-				{text}
+			<button className="btn" type="button">
+				{children}
 			</button>
 		);
 	}

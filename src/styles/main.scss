@@ -3,7 +3,9 @@
 @import "mixins";
 @import "globals";
 
-@import "../sections/Hero/index";
-@import "../sections/LinkShortener/index";
+@import "../sections/Hero";
+@import "../sections/LinkShortener";
 
-@import "../UI/Button/index";
+@import "../components/LinkShortener/LinkInput";
+
+@import "../UI/Button";

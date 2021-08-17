@@ -1,0 +1,54 @@
+.link-input {
+  padding: 0 1.5rem;
+  margin-top: 3.75rem;
+  margin-bottom: 2rem;
+
+  form {
+    @extend .container;
+    background-color: $clr-primary-dark;
+    padding: 1.5rem;
+    border-radius: 0.5625rem;
+    display: grid;
+    gap: 1rem;
+
+    @include breakpoint-up(medium) {
+      padding: 3.25rem 4rem;
+      grid-template-columns: 4fr 1fr;
+      gap: 1.5rem;
+    }
+  }
+
+  input {
+    padding-left: 1rem;
+    padding-left: 1rem;
+
+    &::placeholder {
+      color: $clr-neutral-400;
+    }
+
+    @include breakpoint-up(medium) {
+      padding-left: 2rem;
+      padding-left: 2rem;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input,
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.3125rem;
+
+    @include breakpoint-up(medium) {
+      font-size: 1.125rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-radius: 0.625rem;
+    }
+  }
+}
