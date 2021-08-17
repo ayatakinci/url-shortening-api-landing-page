@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import LinkInput from '../../components/LinkShortener/LinkInput';
+import LinkInput from './LinkInput/';
 
 class LinksShortener extends Component {
 	render() {
