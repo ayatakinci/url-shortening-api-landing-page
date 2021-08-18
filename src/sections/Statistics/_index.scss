@@ -9,8 +9,12 @@
     @include margin-x-auto;
   }
 
-  h2 {
+  h2,
+  h3 {
     color: $clr-neutral-700;
+  }
+
+  h2 {
     font-size: 1.625rem;
     margin-bottom: 1rem;
 
@@ -22,5 +26,23 @@
 
   p {
     font-size: 1.0625rem;
+  }
+
+  .cards-grid {
+    margin-top: 5.75rem;
+    display: grid;
+    gap: 5.75rem;
+    padding: 0 1.5rem;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: calc(50% - 0.25rem);
+      display: block;
+      width: 0.5rem;
+      height: 100%;
+      background-color: $clr-primary-light;
+    }
   }
 }

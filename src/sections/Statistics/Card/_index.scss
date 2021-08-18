@@ -1,0 +1,32 @@
+.card {
+  background-color: $clr-neutral-100;
+  padding: 0 1rem 2.75rem;
+  border-radius: 0.375rem;
+  z-index: 100;
+  @include margin-x-auto;
+
+  &__image-container {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    background-color: $clr-primary-dark;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    @include margin-x-auto;
+    margin-bottom: -0.375rem;
+  }
+
+  h3 {
+    font-size: 1.3125rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+    line-height: 1.75;
+    max-width: 39ch;
+    @include margin-x-auto;
+  }
+}
