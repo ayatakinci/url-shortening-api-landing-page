@@ -1,7 +1,13 @@
+.link-shortener {
+  transform: translateY(calc(-10rem / 2));
+
+  @include breakpoint-up(medium) {
+    transform: translateY(calc(-10.165rem / 2));
+  }
+}
+
 .link-input {
   padding: 0 1.5rem;
-  margin-top: 3.75rem;
-  margin-bottom: 2rem;
 
   form {
     @extend .container;

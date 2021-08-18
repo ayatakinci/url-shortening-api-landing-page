@@ -1,0 +1,25 @@
+.statistics {
+  text-align: center;
+  padding-bottom: 10rem;
+
+  h2,
+  p {
+    padding: 0 1.5rem;
+    max-width: 49ch;
+    @extend .margin-x-auto;
+  }
+
+  h2 {
+    color: $clr-neutral-700;
+    font-size: 1.625rem;
+    margin-bottom: 1rem;
+
+    @include breakpoint-up(medium) {
+      font-size: 2.25rem;
+    }
+  }
+
+  p {
+    font-size: 1.0625rem;
+  }
+}

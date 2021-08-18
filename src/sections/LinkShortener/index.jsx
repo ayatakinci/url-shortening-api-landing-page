@@ -5,7 +5,7 @@ import LinkInput from './LinkInput/';
 class LinksShortener extends Component {
 	render() {
 		return (
-			<section className="links-shortener">
+			<section className="link-shortener">
 				<LinkInput />
 			</section>
 		);
