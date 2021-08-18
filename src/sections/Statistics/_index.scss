@@ -6,7 +6,7 @@
   p {
     padding: 0 1.5rem;
     max-width: 49ch;
-    @extend .margin-x-auto;
+    @include margin-x-auto;
   }
 
   h2 {
@@ -16,6 +16,7 @@
 
     @include breakpoint-up(medium) {
       font-size: 2.25rem;
+      margin-top: 2rem;
     }
   }
 

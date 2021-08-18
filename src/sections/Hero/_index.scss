@@ -41,7 +41,8 @@
     max-width: 18ch;
 
     @include breakpoint-down(small) {
-      margin: 0 auto 1rem;
+      @include margin-x-auto;
+      margin-bottom: 1rem;
       padding: 0 1.5rem;
     }
 
@@ -56,8 +57,7 @@
     max-width: 40ch;
 
     @include breakpoint-down(small) {
-      margin-left: auto;
-      margin-right: auto;
+      @include margin-x-auto;
       padding: 0 1.5rem;
     }
 
@@ -71,8 +71,7 @@
     @extend .btn-rounded;
 
     @include breakpoint-down(small) {
-      margin-left: auto;
-      margin-right: auto;
+      @include margin-x-auto;
     }
   }
 
