@@ -8,17 +8,39 @@ class LinksShortener extends Component {
 		super();
 
 		this.state = {
-			links: [
-				{
-					originalLink: 'https://www.google.com/',
-					shortenedLink: 'https://www.twitch.tv/hayzer',
-				},
-				{
-					originalLink: 'https://www.twitch.tv/hayzer',
-					shortenedLink: 'https://www.google.com/',
-				}
-			],
+			links: [],
 		};
+
+		this.fetchAPI = this.fetchAPI.bind(this);
+	}
+
+	async fetchAPI(url) {
+		const id = Math.random();
+		this.setState(prevState =>{
+			return{
+				links : [{ id, loading: true, }, ...prevState.links],
+			};
+		});
+
+		const endPoint = `https://api.shrtco.de/v2/shorten?url=${url}`;
+		const response = await fetch(endPoint);
+		const {result} = await response.json();
+		
+		const obj = {
+			id,
+			originalLink: url,
+			shortenedLink: result.full_short_link,
+			loading: false,
+		};
+
+		this.setState(prevState =>{
+			return{
+				links : [...prevState.links.map((link) => {
+					if (link.id === id) return obj;
+					else return link; 
+				})],
+			};
+		});
 	}
 	
 	render() {
@@ -26,9 +48,15 @@ class LinksShortener extends Component {
 		
 		return (
 			<section className="link-shortener">
-				<LinkInput />
-				{links.map(({originalLink, shortenedLink}, index) => (
-					<ShortenedLink key={index} originalLink={originalLink} shortenedLink={shortenedLink} />
+				<LinkInput fetchAPI={this.fetchAPI} />
+				{links.map(({originalLink, shortenedLink, loading}, index) => (
+					<ShortenedLink
+						key={index}
+						originalLink={originalLink}
+						shortenedLink={shortenedLink}
+						loading={loading}
+						handleClick={this.fetchAPI}
+					/>
 				))}
 			</section>
 		);

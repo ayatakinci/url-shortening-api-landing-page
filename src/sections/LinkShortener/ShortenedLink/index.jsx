@@ -4,8 +4,12 @@ import Button from '../../../UI/Button';
 
 class ShortenedLink extends Component {
 	render() {
-		const { originalLink, shortenedLink } = this.props;
+		const { originalLink, shortenedLink, loading } = this.props;
     
+		if(loading) return (
+			<div className="loading link-card">Loading</div>
+		);
+		
 		return (
 			<div className="link-card">
 				<div className="links-container">

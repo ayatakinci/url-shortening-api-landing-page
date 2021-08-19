@@ -23,6 +23,7 @@
     position: relative;
 
     @include breakpoint-up(medium) {
+      max-width: 100%;
       display: flex;
       justify-content: space-between;
     }
@@ -44,9 +45,17 @@
 
   &__original {
     color: $clr-neutral-700;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     @include breakpoint-down(small) {
       padding-bottom: 0.75rem;
+    }
+
+    @include breakpoint-up(medium) {
+      max-width: 40ch;
     }
   }
 
@@ -71,5 +80,28 @@
     @include breakpoint-up(medium) {
       padding: 0.625rem 2rem;
     }
+  }
+}
+
+.loading {
+  padding: 2rem;
+
+  animation-name: loading-card-animation-pulse;
+  animation-duration: 1100ms;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+@keyframes loading-card-animation-pulse {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
