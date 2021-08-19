@@ -4,6 +4,11 @@
   text-align: center;
   padding: 6.375rem 1.5rem 5.625rem;
 
+  @include breakpoint-up(medium) {
+    padding-top: 4.375rem;
+    padding-bottom: 3.5rem;
+  }
+
   h2 {
     font-size: 1.625rem;
 

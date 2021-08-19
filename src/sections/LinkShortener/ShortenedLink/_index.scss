@@ -1,0 +1,75 @@
+.link-card {
+  background-color: $clr-neutral-100;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.9375rem;
+  @extend .container;
+
+  @include breakpoint-down(small) {
+    max-width: 40rem;
+  }
+
+  @include breakpoint-up(medium) {
+    font-size: 1.25rem;
+    padding: 1rem 1.5rem 1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .links-container {
+    position: relative;
+
+    @include breakpoint-up(medium) {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @include breakpoint-down(small) {
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: calc(50% - 0.03125rem);
+        left: -1rem;
+        width: calc(100% + 2rem);
+        height: 0.0625rem;
+        opacity: 0.5;
+        background-color: $clr-neutral-300;
+      }
+    }
+  }
+
+  &__original {
+    color: $clr-neutral-700;
+
+    @include breakpoint-down(small) {
+      padding-bottom: 0.75rem;
+    }
+  }
+
+  &__shortened {
+    color: $clr-primary-light;
+
+    @include breakpoint-down(small) {
+      padding-top: 0.75rem;
+    }
+  }
+
+  button {
+    font-size: 0.875rem;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+
+    @include breakpoint-down(small) {
+      margin-top: 1rem;
+      width: 100%;
+    }
+
+    @include breakpoint-up(medium) {
+      padding: 0.625rem 2rem;
+    }
+  }
+}
