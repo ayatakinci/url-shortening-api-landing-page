@@ -1,7 +1,11 @@
 .statistics {
   text-align: center;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
   @extend .container;
+
+  @include breakpoint-up(medium) {
+    padding-bottom: 13rem;
+  }
 
   h2,
   p {

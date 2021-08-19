@@ -1,4 +1,5 @@
 import React from 'react';
+import GetStarted from './sections/GetStarted';
 
 import Hero from './sections/Hero';
 import LinkShortener from './sections/LinkShortener';
@@ -12,6 +13,7 @@ function App() {
 				<LinkShortener />
 				<Statistics />
 			</div>
+			<GetStarted />
 		</main>
 	);
 }

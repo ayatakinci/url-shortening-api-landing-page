@@ -1,0 +1,24 @@
+.get-started {
+  background-color: $clr-primary-dark;
+  color: $clr-neutral-100;
+  text-align: center;
+  padding: 6.375rem 1.5rem 5.625rem;
+
+  h2 {
+    font-size: 1.625rem;
+
+    @include breakpoint-up(medium) {
+      font-size: 2.25rem;
+    }
+  }
+
+  button {
+    @extend .btn-rounded;
+    @include margin-x-auto;
+    margin-top: 1.25rem;
+
+    @include breakpoint-up(medium) {
+      margin-top: 1.75rem;
+    }
+  }
+}
