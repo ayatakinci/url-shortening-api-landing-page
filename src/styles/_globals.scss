@@ -13,6 +13,8 @@ body {
 .gray-bg {
   background-color: $clr-neutral-200;
   margin-top: 10.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 
   @include breakpoint-up(medium) {
     margin-top: 9.5rem;
