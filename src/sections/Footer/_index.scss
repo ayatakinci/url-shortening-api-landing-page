@@ -35,23 +35,16 @@
 
     @include breakpoint-up(medium) {
       flex-direction: row;
-      gap: 5rem;
-    }
-
-    h2,
-    li {
-      font-size: 0.875rem;
-
-      @include breakpoint-up(medium) {
-        font-size: 0.9375rem;
-      }
+      gap: 7rem;
     }
 
     h3 {
+      font-size: 0.875rem;
       margin-bottom: 2rem;
     }
 
     li {
+      font-size: 0.875rem;
       color: $clr-neutral-400;
       cursor: pointer;
     }
