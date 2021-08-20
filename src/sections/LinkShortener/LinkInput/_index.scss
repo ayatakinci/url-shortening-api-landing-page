@@ -10,10 +10,19 @@
   form {
     @extend .container;
     background-color: $clr-primary-dark;
+    background-image: url("../../../images/bg-shorten-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
     padding: 1.5rem;
     border-radius: 0.5625rem;
     display: grid;
     gap: 1rem;
+
+    @media (min-width: 48rem) {
+      background-image: url("../../../images/bg-shorten-desktop.svg");
+      background-size: cover;
+      background-position: top left;
+    }
 
     @include breakpoint-down(small) {
       max-width: 40rem;

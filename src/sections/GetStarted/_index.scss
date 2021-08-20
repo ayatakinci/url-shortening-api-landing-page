@@ -3,6 +3,13 @@
   color: $clr-neutral-100;
   text-align: center;
   padding: 6.375rem 1.5rem 5.625rem;
+  background-image: url("../../images/bg-boost-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width: 48rem) {
+    background-image: url("../../images/bg-boost-desktop.svg");
+  }
 
   @include breakpoint-up(medium) {
     padding-top: 4.375rem;
