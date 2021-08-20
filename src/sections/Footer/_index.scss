@@ -25,7 +25,7 @@
   }
 
   h2 {
-    font-size: 2rem;
+    fill: $clr-neutral-100;
   }
 
   &__links {
@@ -54,6 +54,7 @@
     li {
       color: $clr-neutral-400;
       cursor: pointer;
+      transition: color 187.5ms ease-in-out;
 
       @media (hover: hover) {
         &:hover {

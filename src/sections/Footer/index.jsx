@@ -4,13 +4,14 @@ import { ReactComponent as FacebookIcon } from '../../images/icon-facebook.svg';
 import { ReactComponent as TwitterIcon } from '../../images/icon-twitter.svg';
 import { ReactComponent as PinterestIcon } from '../../images/icon-pinterest.svg';
 import { ReactComponent as InstagramIcon } from '../../images/icon-instagram.svg';
+import { ReactComponent as Logo } from '../../images/logo.svg';
 
 class Footer extends Component {
 	render() {
 		return (
 			<footer className="footer">
 				<div className="footer__container">
-					<h2>Shortly</h2>
+					<h2><Logo /></h2>
 					<div className="footer__links">
 						<div>
 							<h3>Features</h3>
