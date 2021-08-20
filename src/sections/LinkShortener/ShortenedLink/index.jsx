@@ -14,6 +14,11 @@ class ShortenedLink extends Component {
 	}
 
 	handleClick() {
+		const { shortenedLink } = this.props;
+		
+		const cb = navigator.clipboard;
+		cb.writeText(shortenedLink);
+		
 		this.setState({
 			copied: true,
 		}, () => {
