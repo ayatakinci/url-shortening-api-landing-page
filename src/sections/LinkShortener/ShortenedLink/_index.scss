@@ -61,9 +61,17 @@
 
   &__shortened {
     color: $clr-primary-light;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     @include breakpoint-down(small) {
       padding-top: 0.75rem;
+    }
+
+    @include breakpoint-up(medium) {
+      max-width: 30ch;
     }
   }
 

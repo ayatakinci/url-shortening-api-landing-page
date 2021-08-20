@@ -24,23 +24,41 @@ class LinksShortener extends Component {
 
 		const endPoint = `https://api.shrtco.de/v2/shorten?url=${url}`;
 		const response = await fetch(endPoint);
-		const {result} = await response.json();
+		const {ok, result} = await response.json();
 		
-		const obj = {
-			id,
-			originalLink: url,
-			shortenedLink: result.full_short_link,
-			loading: false,
-		};
-
-		this.setState(prevState =>{
-			return{
-				links : [...prevState.links.map((link) => {
-					if (link.id === id) return obj;
-					else return link; 
-				})],
+		if (ok) {
+			const obj = {
+				id,
+				originalLink: url,
+				shortenedLink: result.full_short_link,
+				loading: false,
 			};
-		});
+
+			this.setState(prevState =>{
+				return{
+					links : [...prevState.links.map((link) => {
+						if (link.id === id) return obj;
+						else return link; 
+					})],
+				};
+			});
+		} else {
+			const obj = {
+				id,
+				originalLink: 'Tente novamente. Algo deu errado :( ',
+				shortenedLink: url,
+				loading: false,
+			};
+
+			this.setState(prevState =>{
+				return{
+					links : [...prevState.links.map((link) => {
+						if (link.id === id) return obj;
+						else return link; 
+					})],
+				};
+			});
+		}
 	}
 	
 	render() {

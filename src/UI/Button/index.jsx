@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 class Button extends Component {
 	render() {
-		const { children } = this.props;
+		const { children, submit } = this.props;
     
 		return (
-			<button className="btn" type="button">
+			<button className="btn" type={submit ? 'submit' : 'button' }>
 				{children}
 			</button>
 		);

@@ -11,6 +11,7 @@ class LinkInput extends Component {
 		};
 
 		this.handleChange = this.handleChange.bind(this);
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	handleChange(event) {
@@ -20,19 +21,33 @@ class LinkInput extends Component {
 			link: value,
 		});
 	}
-	
-	render() {
+
+	handleSubmit(event) {
+		event.preventDefault();
+
 		const { fetchAPI } = this.props;
 		const { link } = this.state;
 		
+		this.setState({
+			link: '',
+		});
+
+		fetchAPI(link);
+	}
+	
+	render() {
+		const { link } = this.state;
+
 		return (
 			<div className="link-input">
-				<form onSubmit={(event) => {
-					event.preventDefault();
-					fetchAPI(link);
-				}}>
-					<input onChange={(event) => this.handleChange(event) } type="text" placeholder="Shorten a link here..." />
-					<Button>Shorten it!</Button>
+				<form onSubmit={(event) => this.handleSubmit(event)}>
+					<input
+						onChange={(event) => this.handleChange(event) }
+						value={link}
+						type="text"
+						placeholder="Shorten a link here..."
+					/>
+					<Button submit={true}>Shorten it!</Button>
 				</form>        
 			</div>
 		);
