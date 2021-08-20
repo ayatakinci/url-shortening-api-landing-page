@@ -21,9 +21,9 @@
 
   .links-container {
     position: relative;
+    max-width: 100%;
 
     @include breakpoint-up(medium) {
-      max-width: 100%;
       display: flex;
       justify-content: space-between;
     }
@@ -55,7 +55,7 @@
     }
 
     @include breakpoint-up(medium) {
-      max-width: 40ch;
+      max-width: 35ch;
     }
   }
 

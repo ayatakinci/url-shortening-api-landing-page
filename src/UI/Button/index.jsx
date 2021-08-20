@@ -2,10 +2,14 @@ import React, { Component } from 'react';
 
 class Button extends Component {
 	render() {
-		const { children, submit } = this.props;
+		const { children, submit, copied } = this.props;
     
 		return (
-			<button className="btn" type={submit ? 'submit' : 'button' }>
+			<button
+				className={`btn${copied ? ' copied' : ''}`}
+				type={submit ? 'submit' : 'button' }
+				disabled={copied}
+			>
 				{children}
 			</button>
 		);

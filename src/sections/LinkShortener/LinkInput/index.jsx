@@ -56,7 +56,7 @@ class LinkInput extends Component {
 							value={link}
 							type="text"
 							placeholder="Shorten a link here..."
-							className={invalid && 'invalid-input'}
+							className={invalid ? 'invalid-input' : ''}
 						/>
 						{invalid && <span className="invalid-message">Please add a valid link</span>}
 					</div>
