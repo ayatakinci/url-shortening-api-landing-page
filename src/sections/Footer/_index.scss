@@ -35,18 +35,31 @@
 
     @include breakpoint-up(medium) {
       flex-direction: row;
-      gap: 7rem;
+      gap: 6rem;
+    }
+
+    h3,
+    li {
+      font-size: 0.875rem;
+
+      @include breakpoint-up(large) {
+        font-size: 0.9375rem;
+      }
     }
 
     h3 {
-      font-size: 0.875rem;
       margin-bottom: 2rem;
     }
 
     li {
-      font-size: 0.875rem;
       color: $clr-neutral-400;
       cursor: pointer;
+
+      @media (hover: hover) {
+        &:hover {
+          color: $clr-primary-light;
+        }
+      }
     }
 
     ul {
@@ -61,6 +74,17 @@
       flex-direction: row;
       justify-content: center;
       gap: 1.5rem;
+    }
+
+    svg {
+      fill: $clr-neutral-100;
+      transition: fill 187.5ms ease-in-out;
+
+      @media (hover: hover) {
+        &:hover {
+          fill: $clr-primary-light;
+        }
+      }
     }
   }
 

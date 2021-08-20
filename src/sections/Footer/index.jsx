@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import FacebookIcon from '../../images/icon-facebook.svg';
-import TwitterIcon from '../../images/icon-twitter.svg';
-import PinterestIcon from '../../images/icon-pinterest.svg';
-import InstagramIcon from '../../images/icon-instagram.svg';
+import { ReactComponent as FacebookIcon } from '../../images/icon-facebook.svg';
+import { ReactComponent as TwitterIcon } from '../../images/icon-twitter.svg';
+import { ReactComponent as PinterestIcon } from '../../images/icon-pinterest.svg';
+import { ReactComponent as InstagramIcon } from '../../images/icon-instagram.svg';
 
 class Footer extends Component {
 	render() {
@@ -39,10 +39,10 @@ class Footer extends Component {
 						</div>
 						<div className="footer__social">
 							<ul>
-								<li><img src={FacebookIcon} alt="Facebook" /></li>
-								<li><img src={TwitterIcon} alt="Twitter" /></li>
-								<li><img src={PinterestIcon} alt="Pinterest" /></li>
-								<li><img src={InstagramIcon} alt="Instagram" /></li>
+								<li><FacebookIcon /></li>
+								<li><TwitterIcon /></li>
+								<li><PinterestIcon /></li>
+								<li><InstagramIcon /></li>
 							</ul>
 						</div>
 					</div>
