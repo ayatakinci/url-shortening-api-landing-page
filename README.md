@@ -8,7 +8,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
   - [Live site](#live-site)
   - [O desafio](#o-desafio)
   - [Screenshot](#screenshot)
-- [O processo](#o-processo)
+- [A proposta](#a-proposta)
   - [Feito com ](#feito-com)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
@@ -19,11 +19,11 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 
 ### [Live site](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 
-### O desafio
+### A proposta
 
 Usuários devem ser capazes de:
 
-- View the optimal layout for the site depending on their device's screen size
+<!-- - View the optimal layout for the site depending on their device's screen size -->
 - Encurtar qualquer URL válida
 - Ver a lista de links encurtados
 - Copiar o link encurtado com apenas um click
