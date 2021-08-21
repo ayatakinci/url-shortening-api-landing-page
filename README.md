@@ -26,7 +26,7 @@ Usuários devem ser capazes de:
 <!-- - View the optimal layout for the site depending on their device's screen size -->
 - Encurtar qualquer URL válida
 - Ver a lista de links encurtados
-- Copiar o link encurtado com apenas um click
+- Copiar um link encurtado com apenas um click
 - Receber uma mensagem de erro quando o `form` é submetido, caso:
   - O campo `input` estiver vazio
   - O campo `input` estiver preenchido com um link inválido
