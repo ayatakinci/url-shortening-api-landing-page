@@ -102,7 +102,7 @@
     span {
       transition: color 187.5ms ease-in-out;
 
-      @media (hover: hover) {
+      @include media-hover {
         &:hover {
           color: $clr-neutral-800;
         }

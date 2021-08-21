@@ -56,7 +56,7 @@
       cursor: pointer;
       transition: color 187.5ms ease-in-out;
 
-      @media (hover: hover) {
+      @include media-hover {
         &:hover {
           color: $clr-primary-light;
         }
@@ -81,7 +81,7 @@
       fill: $clr-neutral-100;
       transition: fill 187.5ms ease-in-out;
 
-      @media (hover: hover) {
+      @include media-hover {
         &:hover {
           fill: $clr-primary-light;
         }

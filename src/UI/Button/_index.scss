@@ -21,7 +21,7 @@
   background-color: $clr-primary-dark;
 }
 
-@media (hover: hover) {
+@include media-hover {
   .btn:hover {
     background: linear-gradient(hsla(180, 66%, 49%, 0.5), hsla(180, 66%, 49%, 0.5)),
       linear-gradient($clr-neutral-100, $clr-neutral-100);
