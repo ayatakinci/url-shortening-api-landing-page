@@ -25,7 +25,7 @@
     }
 
     @include breakpoint-down(medium) {
-      max-width: 40rem;
+      max-width: 35rem;
     }
 
     @include breakpoint-up(large) {
