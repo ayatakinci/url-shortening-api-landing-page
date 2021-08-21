@@ -3,7 +3,7 @@
   padding-bottom: 5rem;
   @extend .container;
 
-  @include breakpoint-up(medium) {
+  @include breakpoint-up(large) {
     padding-bottom: 13rem;
   }
 
@@ -22,7 +22,7 @@
     font-size: 1.625rem;
     margin-bottom: 1rem;
 
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(large) {
       font-size: 2.25rem;
       margin-top: 2rem;
     }
@@ -32,7 +32,7 @@
     font-size: 1.0625rem;
   }
 
-  .cards-grid {
+  &__cards-grid {
     margin-top: 5.75rem;
     display: grid;
     gap: 5.75rem;
@@ -47,7 +47,7 @@
       height: 100%;
       background-color: $clr-primary-light;
 
-      @include breakpoint-up(medium) {
+      @include breakpoint-up(large) {
         height: 0.5rem;
         width: calc(100% - 6rem);
         left: 3rem;
@@ -55,7 +55,7 @@
       }
     }
 
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(large) {
       grid-template-columns: repeat(3, 1fr);
       gap: 1.875rem;
     }

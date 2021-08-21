@@ -5,8 +5,8 @@ class Card extends Component {
 		const { title, paragraph, image } = this.props;
     
 		return (
-			<div className="card">
-				<div className="card__image-container">
+			<div className="statistics__card">
+				<div className="statistics__card__image-container">
 					<img src={image} alt={title} />
 				</div>
 				<h3>{title}</h3>

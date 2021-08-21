@@ -19,7 +19,7 @@
     align-items: center;
   }
 
-  @media (max-width: 47.9375rem) {
+  @include breakpoint-down(small) {
     nav {
       display: flex;
       justify-content: space-between;
@@ -66,7 +66,7 @@
     }
   }
 
-  @media (min-width: 48rem) {
+  @include breakpoint-up(medium) {
     nav {
       display: grid;
       grid-template-columns: auto 1fr;

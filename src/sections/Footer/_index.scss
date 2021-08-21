@@ -3,11 +3,11 @@
   color: $clr-neutral-100;
   padding: 3.25rem 1.5rem 3.5rem;
 
-  @include breakpoint-down(small) {
+  @include breakpoint-down(medium) {
     text-align: center;
   }
 
-  @include breakpoint-up(medium) {
+  @include breakpoint-up(large) {
     padding-top: 4.5rem;
     padding-bottom: 4.75rem;
   }
@@ -18,7 +18,7 @@
     flex-direction: column;
     gap: 3.25rem;
 
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(large) {
       flex-direction: row;
       justify-content: space-between;
     }
@@ -33,7 +33,7 @@
     flex-direction: column;
     gap: 3rem;
 
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(large) {
       flex-direction: row;
       gap: 6rem;
     }

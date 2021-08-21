@@ -8,7 +8,7 @@
     display: grid;
     @extend .container;
 
-    @include breakpoint-down(small) {
+    @include breakpoint-down(medium) {
       text-align: center;
       grid-template-columns: repeat(2, 100%);
       grid-template-areas: "image" "text";
@@ -23,13 +23,13 @@
       }
     }
 
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(large) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
   &__text-container {
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(large) {
       margin: 4.75rem 0 0 1.5rem;
     }
   }
@@ -40,13 +40,13 @@
     line-height: 1.15;
     max-width: 18ch;
 
-    @include breakpoint-down(small) {
+    @include breakpoint-down(medium) {
       @include margin-x-auto;
       margin-bottom: 1rem;
       padding: 0 1.5rem;
     }
 
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(large) {
       font-size: 4.5rem;
     }
   }
@@ -56,12 +56,12 @@
     margin-bottom: 2rem;
     max-width: 40ch;
 
-    @include breakpoint-down(small) {
+    @include breakpoint-down(medium) {
       @include margin-x-auto;
       padding: 0 1.5rem;
     }
 
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(large) {
       margin-bottom: 2.25rem;
       font-size: 1.25rem;
     }
@@ -70,7 +70,7 @@
   button {
     @extend .btn-rounded;
 
-    @include breakpoint-down(small) {
+    @include breakpoint-down(medium) {
       @include margin-x-auto;
     }
   }
@@ -80,7 +80,7 @@
     max-width: 30.78125rem;
     padding-left: 1.5rem;
 
-    @include breakpoint-up(medium) {
+    @include breakpoint-up(large) {
       max-width: 50rem;
       padding-left: 2.75rem;
     }

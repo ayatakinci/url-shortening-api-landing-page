@@ -32,7 +32,7 @@ class Statistics extends Component {
           Track how your links are performing across the web with our advanced statistics dashboard.
 				</p>
 
-				<div className="cards-grid">
+				<div className="statistics__cards-grid">
 					{statistics_text.map(({ title, paragraph, image }, index) => (
 						<Card key={index} title={title} paragraph={paragraph} image={image} />
 					))}
