@@ -35,10 +35,6 @@ Usuários devem ser capazes de:
 
 ![](./screenshot.jpeg)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above. -->
-
 ## O processo
 
 ### Feito com
