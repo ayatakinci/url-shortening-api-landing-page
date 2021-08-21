@@ -1,0 +1,112 @@
+.header {
+  font-weight: $fw-bold;
+  font-size: 0.875rem;
+  @extend .container;
+  padding: 1.5rem;
+  position: relative;
+
+  button {
+    @extend .btn-rounded;
+  }
+
+  span,
+  svg {
+    cursor: pointer;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  @media (max-width: 47.9375rem) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__wrapper {
+      position: absolute;
+      top: 5rem;
+      left: 0;
+      right: 0;
+      width: calc(100% - 3rem);
+      max-width: 30rem;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      background-color: $clr-primary-dark;
+      padding: 2.5rem 1.5rem;
+      border-radius: 0.625rem;
+      color: $clr-neutral-100;
+      font-size: 0.9375rem;
+      text-align: center;
+    }
+
+    &__links {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      border-bottom: 1px solid hsla(100%, 100%, 100%, 0.25);
+      padding-bottom: 2rem;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 1.5rem;
+      padding: 0.75rem;
+      font-size: 1.0625rem;
+    }
+
+    .hide {
+      display: none;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    nav {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 2.875rem;
+    }
+
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__links {
+      display: flex;
+      gap: 2rem;
+    }
+
+    &__account {
+      display: flex;
+      align-items: center;
+      gap: 1.75rem;
+    }
+
+    &__menu {
+      display: none;
+    }
+
+    button {
+      font-size: 0.875rem;
+      padding: 0.625rem 1.625rem;
+    }
+
+    span {
+      transition: color 187.5ms ease-in-out;
+
+      @media (hover: hover) {
+        &:hover {
+          color: $clr-neutral-800;
+        }
+      }
+    }
+  }
+}

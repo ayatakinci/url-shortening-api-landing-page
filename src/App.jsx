@@ -5,18 +5,22 @@ import LinkShortener from './sections/LinkShortener';
 import Statistics from './sections/Statistics';
 import GetStarted from './sections/GetStarted';
 import Footer from './sections/Footer';
+import Header from './sections/Header';
 
 function App() {
 	return (
-		<main>
-			<Hero />
-			<div className="gray-bg">
-				<LinkShortener />
-				<Statistics />
-			</div>
-			<GetStarted />
-			<Footer />
-		</main>
+		<>
+			<Header />
+			<main>
+				<Hero />
+				<div className="gray-bg">
+					<LinkShortener />
+					<Statistics />
+				</div>
+				<GetStarted />
+				<Footer />
+			</main>
+		</>
 	);
 }
 

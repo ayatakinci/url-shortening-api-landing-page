@@ -5,17 +5,19 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 ## Sumário
 
 - [Visão geral](#visão-geral)
+  - [Live site](#live-site)
   - [O desafio](#o-desafio)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [O processo](#o-processo)
   - [Feito com ](#feito-com)
-  - [O que aprendi](#o-que-aprendi)
-  - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
+  <!-- - [O que aprendi](#o-que-aprendi)
+  - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
   - [Recursos úteis](#recursos-úteis)
-- [Autor](#autor)
+<!-- - [Autor](#autor) -->
 
 ## Visão geral
+
+### [Live site](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 
 ### O desafio
 
@@ -39,10 +41,6 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above. -->
 
-### Links
-
-- [Live Site](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
-
 ## O processo
 
 ### Feito com
@@ -51,7 +49,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [Sass](https://sass-lang.com/) - Pré-processador CSS
 - Workflow Mobile-first
 
-### O que aprendi
+<!-- ### O que aprendi
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
@@ -73,14 +71,14 @@ const proudOfThisFunc = () => {
 
 ### Desenvolvimento contínuo
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
 
 ### Recursos úteis
 
 - [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades e padrões do Sass para facilitar a organização do projeto e evitar repetições. Continuarei os usando daqui pra frente.
 
-## Autor
+<!-- ## Autor
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
