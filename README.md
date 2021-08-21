@@ -16,7 +16,8 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 
 ## Visão geral
 
-### [Live site](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
+### Live site
+- Quer testar minha aplicação? Clique [nesse link](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 
 ### A proposta
 
@@ -26,7 +27,7 @@ Usuários devem ser capazes de:
 - Encurtar qualquer URL válida
 - Ver a lista de links encurtados
 - Copiar o link encurtado com apenas um click
-- Receber uma mensagem de erro quando o `form` é submetido se:
+- Receber uma mensagem de erro quando o `form` é submetido, caso:
   - O campo `input` estiver vazio
   - O campo `input` estiver preenchido com um link inválido
 
@@ -75,7 +76,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Recursos úteis
 
-- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades e padrões do Sass para facilitar a organização do projeto e evitar repetições. Continuarei os usando daqui pra frente.
+- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades e padrões do Sass para facilitar a organização do projeto e evitar repetições. Vou continuar utilizando-as daqui pra frente.
 
 <!-- ## Autor
 
