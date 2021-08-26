@@ -34,7 +34,7 @@ class Header extends Component {
 						<Logo />
 					</h1>
 
-					<div className={`header__wrapper${open ? '' : ' hide'}`}>
+					<div className={`header__wrapper${open ? ' open' : ''}`}>
 						<div className="header__links">
 							<span>Features</span>
 							<span>Pricing</span>

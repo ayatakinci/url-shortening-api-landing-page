@@ -31,8 +31,9 @@
       top: 5rem;
       left: 0;
       right: 0;
-      width: calc(100% - 3rem);
-      max-width: 30rem;
+      width: 0;
+      height: 0;
+      opacity: 0;
       margin-left: auto;
       margin-right: auto;
       display: flex;
@@ -44,6 +45,8 @@
       color: $clr-neutral-100;
       font-size: 0.9375rem;
       text-align: center;
+      transform: translateY(-200%);
+      transition: width 50ms 150ms, height 50ms 150ms, opacity 50ms ease-in-out, transform 50ms ease-in-out;
     }
 
     &__links {
@@ -61,8 +64,13 @@
       font-size: 1.0625rem;
     }
 
-    .hide {
-      display: none;
+    .open {
+      width: calc(100% - 3rem);
+      max-width: 30rem;
+      height: fit-content;
+      opacity: 1;
+      transform: none;
+      transition: transform 312.5ms ease-in-out, opacity 312.5ms ease-in-out;
     }
   }
 
