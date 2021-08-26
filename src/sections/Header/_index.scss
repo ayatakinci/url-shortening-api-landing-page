@@ -40,9 +40,9 @@
       flex-direction: column;
       gap: 2rem;
       background-color: $clr-primary-dark;
+      color: transparent;
       padding: 2.5rem 1.5rem;
       border-radius: 0.625rem;
-      color: $clr-neutral-100;
       font-size: 0.9375rem;
       text-align: center;
       transform: translateY(-200%);
@@ -70,6 +70,7 @@
       height: fit-content;
       opacity: 1;
       transform: none;
+      color: $clr-neutral-100;
       transition: transform 312.5ms ease-in-out, opacity 312.5ms ease-in-out;
     }
   }
