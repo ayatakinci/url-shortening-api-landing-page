@@ -21,12 +21,22 @@ class Header extends Component {
 			return {
 				open : !prevState.open,
 			};
+		}, () => {
+			const {open} = this.state;
+			const wrapper = document.getElementsByClassName('header__wrapper')[0];
+			
+			if (open) {
+				wrapper.classList.remove('closed');
+				wrapper.classList.add('open');
+				console.log('teste');
+			} else {
+				wrapper.classList.remove('open');
+				wrapper.classList.add('closed');
+			}
 		});
 	}
   
 	render() {
-		const { open } = this.state;
-    
 		return (
 			<header className="header">
 				<nav>
@@ -34,7 +44,7 @@ class Header extends Component {
 						<Logo />
 					</h1>
 
-					<div className={`header__wrapper${open ? ' open' : ''}`}>
+					<div className="header__wrapper">
 						<div className="header__links">
 							<span>Features</span>
 							<span>Pricing</span>

@@ -47,6 +47,9 @@
       font-size: 0.9375rem;
       text-align: center;
       transform: translateX(-100%);
+    }
+
+    .closed {
       transition: transform 312.5ms ease-in-out, opacity 312.5ms ease-in-out, visibility 312.5ms;
     }
 
