@@ -5,7 +5,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 ## Sumário
 
 - [Visão geral](#visão-geral)
-  - [Live site](#live-site)
+  - [Live site](#o-site)
   - [Screenshot](#screenshot)
 - [A proposta](#a-proposta)
   - [Feito com ](#feito-com)
@@ -16,7 +16,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 
 ## Visão geral
 
-### Live site
+### O site
 - Quer testar minha aplicação? Clique [nesse link](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 
 ### A proposta
