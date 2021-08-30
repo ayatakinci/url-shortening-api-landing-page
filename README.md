@@ -17,7 +17,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 ## Visão geral
 
 ### O site
-- Quer testar minha aplicação? Clique [nesse link](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
+- Quer testar minha aplicação? Clique [aqui](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 
 ### A proposta
 
