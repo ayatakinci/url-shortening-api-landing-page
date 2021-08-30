@@ -6,6 +6,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 
 - [Visão geral](#visão-geral)
   - [O site](#o-site)
+  - [A proposta](#a-proposta)
   - [Screenshot](#screenshot)
 - [A proposta](#a-proposta)
   - [Feito com ](#feito-com)
