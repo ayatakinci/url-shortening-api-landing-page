@@ -40,10 +40,10 @@ Usuários devem ser capazes de:
 
 ### Feito com
 
-- [React](https://reactjs.org/) - JavaScript Frontend Framework
+- [React](https://reactjs.org/) - Livraria JavaScript para Frontend
 - [Sass](https://sass-lang.com/) - Pré-processador CSS
 - Workflow Mobile-first
-- [BEM](http://getbem.com/introduction/) - Metodologia CSS 
+- [BEM](http://getbem.com/introduction/) - Metodologia CSS
 
 <!-- ### O que aprendi
 
