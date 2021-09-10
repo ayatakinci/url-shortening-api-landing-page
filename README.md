@@ -8,7 +8,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
   - [O site](#o-site)
   - [A proposta](#a-proposta)
   - [Screenshot](#screenshot)
-- [A proposta](#a-proposta)
+- [O processo](#o-processo)
   - [Feito com ](#feito-com)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
