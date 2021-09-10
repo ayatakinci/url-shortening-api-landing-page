@@ -24,7 +24,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 
 Usuários devem ser capazes de:
 
-<!-- - View the optimal layout for the site depending on their device's screen size -->
+- Visualizar o layout do site otimizado para o tamanho de sua tela 
 - Encurtar qualquer URL válida
 - Ver a lista de links encurtados
 - Copiar um link encurtado com apenas um click
