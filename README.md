@@ -71,7 +71,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Recursos úteis
 
-- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades do Sass para facilitar a organização do projeto e evitar repetições. Vou continuar as usando daqui pra frente.
+- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades do Sass para facilitar a organização do projeto e evitar repetições. Vou continuar as usando daqui pra frente
 
 <!-- ## Autor
 
