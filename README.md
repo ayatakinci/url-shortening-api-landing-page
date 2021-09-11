@@ -10,14 +10,15 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
   - [Screenshot](#screenshot)
 - [O processo](#o-processo)
   - [Feito com ](#feito-com)
+  - [Recursos úteis](#recursos-úteis)
   <!-- - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo) -->
-  - [Recursos úteis](#recursos-úteis)
 <!-- - [Autor](#autor) -->
 
 ## Visão geral
 
 ### O site
+
 - Quer acessar minha aplicação? Clique [aqui](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 - Deseja testa-lá localmente? Vamos lá
   1. Clone o repositório
@@ -56,6 +57,10 @@ Usuários devem ser capazes de:
 - [BEM](http://getbem.com/introduction/) - Metodologia CSS
 - Workflow Mobile-first
 
+### Recursos úteis
+
+- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades do Sass para evitar repetições e facilitar a organização de um projeto. Pretendo continuar as usando daqui pra frente
+
 <!-- ### O que aprendi
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
@@ -79,10 +84,6 @@ const proudOfThisFunc = () => {
 ### Desenvolvimento contínuo
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
-
-### Recursos úteis
-
-- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades do Sass para evitar repetições e facilitar a organização de um projeto. Pretendo continuar as usando daqui pra frente
 
 <!-- ## Autor
 
