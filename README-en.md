@@ -1,6 +1,6 @@
 # Frontend Mentor - Shortly URL shortening API
 
-This is a solution to the [Shortly URL shortening API Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) challenge on Frontend Mentor](https://www.frontendmentor.io).
+This is a solution to the [Shortly URL shortening API Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) challenge on [Frontend Mentor](https://www.frontendmentor.io).
 
 ## Table of contents
 
@@ -19,7 +19,7 @@ This is a solution to the [Shortly URL shortening API Challenge](https://www.fro
 
 ### Live site and instructions
 
-- Please visit my application at [](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
+- Please visit my application [at](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 - Want to check it locally? Follow the steps
   1. Clone the repository
     * `git clone git@github.com:adryanrosa/url-shortening-api-landing-page.git`.
