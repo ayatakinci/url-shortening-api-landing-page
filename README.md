@@ -18,7 +18,18 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 ## Visão geral
 
 ### O site
-- Quer testar minha aplicação? Clique [aqui](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
+- Quer acessar minha aplicação? Clique [aqui](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
+- Deseja testa-lá localmente? Vamos lá
+  1. Clone o repositório
+    * `git clone git@github.com:adryanrosa/url-shortening-api-landing-page.git`.
+    * Entre na pasta do repositório que você acabou de clonar:
+     * `cd url-shortening-api-landing-page`
+
+  2. Instale as dependências e inicialize o projeto
+    * Instale as dependências:
+     * `npm install`
+    * Inicialize o projeto:
+     * `npm run dev` (uma nova página deve abrir no seu navegador)
 
 ### A proposta
 
