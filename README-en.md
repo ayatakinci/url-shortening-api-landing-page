@@ -5,7 +5,7 @@ This is a solution to the [Shortly URL shortening API Challenge](https://www.fro
 ## Table of contents
 
 - [Overview](#overview)
-  - [Live Site/Instructions](#live-site-and-instructions)
+  - [Live Site and instructions](#live-site-and-instructions)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
@@ -58,7 +58,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - This masterclass helped understand @mixins, @include, @extends, etc. Sass features to avoid repetition and improve the project organization. Will keep using them going forward.
+- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - This masterclass helped understand @mixins, @include, @extends, etc. Sass features to avoid repetition and improve the project organization. Will keep using them going forward
 
 <!-- ### O que aprendi
 
