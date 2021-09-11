@@ -1,11 +1,12 @@
 # Frontend Mentor - Shortly URL shortening API
+[![Clique aqui para ler em português](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/adryanrosa/url-shortening-api-landing-page/blob/main/README.md)
 
 This is a solution to the [Shortly URL shortening API Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) challenge on [Frontend Mentor](https://www.frontendmentor.io).
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Live Site and instructions](#live-site-and-instructions)
+  - [Live site and instructions](#live-site-and-instructions)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
