@@ -17,10 +17,10 @@ This is a solution to the [Shortly URL shortening API Challenge](https://www.fro
 
 ## Overview
 
-### Live Site/Instructions
+### Live site/instructions
 
-- Please check my application at [](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
-- Want to see it locally? Follow the steps
+- Please visit my application at [](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
+- Want to check it locally? Follow the steps
   1. Clone the repository
     * `git clone git@github.com:adryanrosa/url-shortening-api-landing-page.git`.
     * Enter the cloned repository folder:
