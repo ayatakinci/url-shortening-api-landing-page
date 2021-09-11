@@ -59,7 +59,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - This masterclass helped understand @mixins, @include, @extends, etc. Sass features to avoid repetition and improve the project organization. Will keep using them going forward
+- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - This masterclass helped understand @mixins, @include, @extends, etc. Sass features to improve the project organization and avoid repetitions. Will keep using them going forward
 
 <!-- ### O que aprendi
 
