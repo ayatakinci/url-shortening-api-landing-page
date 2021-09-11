@@ -60,7 +60,7 @@ Usuários devem ser capazes de:
 
 ### Recursos úteis
 
-- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixins, @include, @extends, etc. funcionalidades do Sass para facilitar a organização de um projeto e evitar repetições. Pretendo continuar as usando daqui pra frente
+- [Sass Masterclass - Rocketseat](https://www.youtube.com/watch?v=BaI8dHUthLA) - Essa aula me ajudou a entender @mixin, @function @include, @extend, etc. funcionalidades do Sass para facilitar a organização de um projeto e evitar repetições. Pretendo continuar as usando daqui pra frente
 
 <!-- ### O que aprendi
 
