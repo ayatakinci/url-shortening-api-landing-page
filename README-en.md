@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](./screenshot.png)
+![screenshot](./screenshot.png)
 
 ## My process
 
