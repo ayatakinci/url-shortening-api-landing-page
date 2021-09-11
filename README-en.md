@@ -5,8 +5,8 @@ This is a solution to the [Shortly URL shortening API Challenge](https://www.fro
 ## Table of contents
 
 - [Overview](#overview)
-  - [Live Site/Instructions](#live-site/instructions)
-  - [The challange](#the-challange)
+  - [Live Site/Instructions](#live-site-and-instructions)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -17,7 +17,7 @@ This is a solution to the [Shortly URL shortening API Challenge](https://www.fro
 
 ## Overview
 
-### Live site/instructions
+### Live site and instructions
 
 - Please visit my application at [](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 - Want to check it locally? Follow the steps
@@ -32,7 +32,7 @@ This is a solution to the [Shortly URL shortening API Challenge](https://www.fro
     * Start the project:
      * `npm run dev` (a new tab should open in your default browser)
 
-### The challange
+### The challenge
 
 Users should be able to:
 
