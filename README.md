@@ -26,6 +26,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
     * Entre na pasta do repositório que você acabou de clonar:
      * `cd url-shortening-api-landing-page`
 
+
   2. Instale as dependências e inicialize o projeto
     * Instale as dependências:
      * `npm install`
