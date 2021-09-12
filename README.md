@@ -1,7 +1,7 @@
 # Frontend Mentor - Shortly URL shortening API
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/adryanrosa/url-shortening-api-landing-page/blob/main/README-en.md)
 
-Essa é uma solução do desafio [Shortly URL shortening API](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) por [Frontend Mentor](https://www.frontendmentor.io).
+Essa é uma solução do desafio [Shortly URL shortening API](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) por [Frontend Mentor](https://www.frontendmentor.io)
 
 ## Sumário
 
@@ -23,7 +23,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
 - Quer acessar minha aplicação? Clique [aqui](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 - Deseja testa-lá localmente? Vamos lá
   1. Clone o repositório
-    * `git clone git@github.com:adryanrosa/url-shortening-api-landing-page.git`.
+    * `git clone git@github.com:adryanrosa/url-shortening-api-landing-page.git`
     * Entre na pasta do repositório que você acabou de clonar:
      * `cd url-shortening-api-landing-page`
 
