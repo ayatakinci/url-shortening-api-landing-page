@@ -31,7 +31,7 @@ Essa é uma solução do desafio [Shortly URL shortening API](https://www.fronte
     * Instale as dependências:
      * `npm install`
     * Inicialize o projeto:
-     * `npm run dev` (uma nova página deve abrir no seu navegador)
+     * `npm start` (uma nova página deve abrir no seu navegador)
 
 ### A proposta
 
@@ -53,7 +53,7 @@ Usuários devem ser capazes de:
 
 ### Feito com
 
-- [React](https://reactjs.org/) - Livraria JavaScript para Frontend
+- [React](https://reactjs.org/) - Livraria JavaScript para frontend
 - [Sass](https://sass-lang.com/) - Pré-processador CSS
 - [BEM](http://getbem.com/introduction/) - Metodologia CSS
 - Workflow Mobile-first
