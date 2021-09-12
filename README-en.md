@@ -1,7 +1,7 @@
 # Frontend Mentor - Shortly URL shortening API
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/adryanrosa/url-shortening-api-landing-page/blob/main/README.md)
 
-This is a solution to the [Shortly URL shortening API Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) challenge on [Frontend Mentor](https://www.frontendmentor.io).
+This is a solution to the [Shortly URL shortening API Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) challenge on [Frontend Mentor](https://www.frontendmentor.io)
 
 ## Table of contents
 
@@ -23,7 +23,7 @@ This is a solution to the [Shortly URL shortening API Challenge](https://www.fro
 - Please visit my application [at](https://url-shortening-api-landing-page-adryanrosa.vercel.app/)
 - Want to check it locally? Follow the steps
   1. Clone the repository
-    * `git clone git@github.com:adryanrosa/url-shortening-api-landing-page.git`.
+    * `git clone git@github.com:adryanrosa/url-shortening-api-landing-page.git`
     * Enter the cloned repository folder:
      * `cd url-shortening-api-landing-page`
 
@@ -31,7 +31,7 @@ This is a solution to the [Shortly URL shortening API Challenge](https://www.fro
     * Install the dependencies:
      * `npm install`
     * Start the project:
-     * `npm run dev` (a new tab should open in your default browser)
+     * `npm start` (a new tab should open in your default browser)
 
 ### The challenge
 
