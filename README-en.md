@@ -55,6 +55,7 @@ Users should be able to:
 - [React](https://reactjs.org/) - Frontend JavaScript library
 - [Sass](https://sass-lang.com/) - CSS preprocessor
 - [BEM](http://getbem.com/introduction/) - CSS methodology
+- [Link Shortener API](https://shrtco.de/) - REST API
 - Mobile-first Workflow
 
 ### Useful resources
