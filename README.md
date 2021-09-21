@@ -56,6 +56,7 @@ Usuários devem ser capazes de:
 - [React](https://reactjs.org/) - Livraria JavaScript para frontend
 - [Sass](https://sass-lang.com/) - Pré-processador CSS
 - [BEM](http://getbem.com/introduction/) - Metodologia CSS
+- [Link Shortener API](https://shrtco.de/) - REST API
 - Workflow Mobile-first
 
 ### Recursos úteis
