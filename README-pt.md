@@ -1,5 +1,5 @@
 # Frontend Mentor - Shortly URL shortening API
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/adryanrosa/url-shortening-api-landing-page/blob/main/README-en.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/adryanrosa/url-shortening-api-landing-page/blob/main/README.md)
 
 Essa é uma solução do desafio [Shortly URL shortening API](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G) por [Frontend Mentor](https://www.frontendmentor.io)
 
